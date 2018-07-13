@@ -64,4 +64,7 @@ public class StaffDto extends AbstractValueObject {
     public void setEmail(String email) {
         this.email = email;
     }
+    public String rString(){
+        return id+"\t"+code+"\t"+name+"\t"+idCard+"\t"+phone+"\t"+email;
+    }
 }

@@ -12,7 +12,7 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 
 /**
- *  Created by Peter on 2016/7/11.
+ * Created by Peter on 2016/7/11.
  */
 @Entity
 @Table(name = "t_role")
